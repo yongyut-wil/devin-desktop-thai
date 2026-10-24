@@ -66,6 +66,9 @@ Devin webapp ใช้ i18next + lazy locale chunks กอง registry ภาษ
    (flat `{namespace: dict}` — shape เดียวกับ `ja-*.js` ของ Devin)
 2. insert `{code:'th', label:'ไทย', translation:()=>import('./th-ThaiLang1.js')}`
    หลัง English entry ใน registry
+3. patch `windsurf-chat-client/index.js` (agents/chat panel — webview แยกที่มี
+   i18next ของตัวเองและ hardcode `lng:"en"`) โดย inject dict ไทยเข้า
+   `resources` แล้วเปลี่ยนเป็น `lng:"th"`
 
 ภาษาที่เลือก persist ใน `localStorage["devin-language"]` — เลือกครั้งเดียวใช้ตลอด
 

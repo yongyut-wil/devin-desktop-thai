@@ -61,4 +61,26 @@ else {
   fs.writeFileSync(fp, s.replace(anchor, insert));
   console.log('patched:', entry, '(backup: ' + entry + '.bak)');
 }
+
+// --- 4. patch windsurf-chat-client (agents mode panel — own i18next, hardcoded lng:"en") ---
+const CHAT = path.join(ASSETS, '../../windsurf-chat-client/index.js');
+if (fs.existsSync(CHAT)) {
+  let c = fs.readFileSync(CHAT, 'utf-8');
+  if (c.includes('lng:"th"')) { console.log('chat-client already patched'); }
+  else {
+    const resAnchor = '{en:{translation:n?JSON.parse(JSON.stringify(tcI)):tcI,review:tcD}}';
+    const lngAnchor = 'resources:r,lng:"en"';
+    if (!c.includes(resAnchor) || !c.includes(lngAnchor)) {
+      console.error('chat-client anchors not found — build changed, needs re-analysis');
+    } else {
+      const thJson = JSON.stringify(merged).replace(/\\/g, '\\\\').replace(/'/g, "\\'")
+        .replace(new RegExp('\\u2028','g'), '\\u2028').replace(new RegExp('\\u2029','g'), '\\u2029');
+      c = c.replace(resAnchor, resAnchor.slice(0, -1) + ",th:{translation:JSON.parse('" + thJson + "')}}")
+           .replace(lngAnchor, 'resources:r,lng:"th"');
+      if (!fs.existsSync(CHAT + '.bak')) fs.copyFileSync(CHAT, CHAT + '.bak');
+      fs.writeFileSync(CHAT, c);
+      console.log('patched: windsurf-chat-client/index.js (backup: index.js.bak)');
+    }
+  }
+} else console.log('chat-client not present, skipped');
 console.log('DONE — quit Devin fully, reopen, then Settings → Language → ไทย');
