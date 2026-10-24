@@ -1,0 +1,608 @@
+{
+"notificationInbox": {
+ "loading": "กำลังโหลดการแจ้งเตือน…",
+ "retry": "ลองอีกครั้ง",
+ "loadMore": "โหลดเพิ่ม",
+ "errors": {
+  "load": "โหลดการแจ้งเตือนไม่ได้",
+  "mutation": "บันทึกการเปลี่ยนแปลงไม่ได้ ลองอีกครั้ง",
+  "unsupported": "การกระทำนี้ไม่รองรับบนการเชื่อมต่อนี้"
+ },
+ "title": "การแจ้งเตือน",
+ "filter": "ตัวกรอง",
+ "tabs": {
+  "all": "ทั้งหมด",
+  "unread": "ยังไม่อ่าน"
+ },
+ "types": {
+  "session": "เซสชัน",
+  "billing": "การเรียกเก็บเงิน",
+  "access": "การเข้าถึง",
+  "system": "ระบบ",
+  "automation": "Automation"
+ },
+ "collapse": "ปิด",
+ "internal": "ภายใน",
+ "showDummyData": "แสดงข้อมูลตัวอย่าง",
+ "fixtureApproved": "อนุมัติโดยคุณ",
+ "fixtureDenied": "ปฏิเสธโดยคุณ",
+ "unread": "ยังไม่อ่าน",
+ "more": "การกระทำเพิ่มเติม",
+ "pinSidebar": "ปักหมุด",
+ "unpinSidebar": "เลิกปักหมุด",
+ "markRead": "ทำเครื่องหมายว่าอ่านแล้ว",
+ "markUnread": "ทำเครื่องหมายว่ายังไม่อ่าน",
+ "turnOffType": "ปิดการแจ้งเตือน{{type}}",
+ "turnedOffType": "ปิดการแจ้งเตือน{{type}}แล้ว",
+ "actions": "การกระทำ",
+ "showDetails": "แสดงรายละเอียด",
+ "hideDetails": "ซ่อนรายละเอียด",
+ "empty": {
+  "title": "คุณติดตามทันหมดแล้ว",
+  "description": "การแจ้งเตือนใหม่จะแสดงที่นี่"
+ },
+ "filteredEmpty": {
+  "title": "ไม่มีการแจ้งเตือนที่ตรง",
+  "description": "เลือกประเภทการแจ้งเตือนเพื่อดูที่นี่"
+ },
+ "unreadEmpty": {
+  "title": "ไม่มีการแจ้งเตือนที่ยังไม่อ่าน",
+  "description": "คุณติดตามทันหมดแล้ว"
+ },
+ "feed": {
+  "label": "การแจ้งเตือนล่าสุด"
+ },
+ "announcements": {
+  "label": "ประกาศ",
+  "navigation": "เรียกดูประกาศ",
+  "position": "{{index}} จาก {{total}}",
+  "previous": "ประกาศก่อนหน้า",
+  "next": "ประกาศถัดไป",
+  "hide": "ซ่อนประกาศ"
+ },
+ "markAllAsRead": "ทำเครื่องหมายว่าอ่านทั้งหมด",
+ "markAllAsUnread": "ทำเครื่องหมายว่ายังไม่อ่านทั้งหมด",
+ "notificationSettings": "การตั้งค่าการแจ้งเตือน",
+ "resetNotifications": "คืนค่าการแจ้งเตือนทั้งหมด",
+ "server": {
+  "liveActivity": {
+   "title": "เซสชัน Devin",
+   "followingSession": "กำลังติดตามเซสชัน",
+   "activity": {
+    "thinking": "กำลังคิด",
+    "planning": "กำลังวางแผน",
+    "working": "กำลังทำงาน",
+    "runningCommand": "กำลังรันคำสั่ง",
+    "usingBrowser": "กำลังใช้เบราว์เซอร์",
+    "usingComputer": "กำลังใช้คอมพิวเตอร์",
+    "waitingForCi": "รอ CI",
+    "waitingOnChild": "รอเซสชันลูก",
+    "coding": "กำลังเขียนโค้ด",
+    "testing": "กำลังทดสอบ",
+    "needsInput": "รอคุณ",
+    "completed": "เสร็จสมบูรณ์",
+    "cancelled": "หยุดแล้ว",
+    "failed": "ล้มเหลว"
+   }
+  },
+  "accessRequest": {
+   "title": "คำขอเข้าถึง",
+   "body": "{{name}} ขอเข้าถึง {{account}}",
+   "review": "รีวิว",
+   "outcome": {
+    "approved": "อนุมัติแล้ว",
+    "denied": "ปฏิเสธแล้ว"
+   },
+   "settings": {
+    "name": "คำขอเข้าถึงที่ต้องอนุมัติ",
+    "description": "มีคนขอเข้าถึงและคุณอนุมัติได้"
+   }
+  },
+  "accessRequestResolved": {
+   "title": {
+    "approved": "อนุมัติการเข้าถึงแล้ว",
+    "denied": "ปฏิเสธการเข้าถึงแล้ว"
+   },
+   "body": {
+    "approved": "คำขอเข้าถึง {{account}} ของคุณได้รับการอนุมัติ",
+    "denied": "คำขอเข้าถึง {{account}} ของคุณถูกปฏิเสธ"
+   },
+   "startSession": "เริ่มเซสชัน",
+   "settings": {
+    "name": "คำขอเข้าถึงของคุณได้รับคำตอบ",
+    "description": "คำขอเข้าถึงของคุณได้รับการอนุมัติหรือปฏิเสธ"
+   }
+  },
+  "automationRunFailed": {
+   "title": "Automation ล้มเหลว",
+   "bodyOne": "{{name}} ล้มเหลว",
+   "body": "{{name}} ล้มเหลว {{count}} ครั้งติดกัน",
+   "open": "ดู automation",
+   "outcome": {
+    "recovered": "กู้คืนแล้ว"
+   },
+   "settings": {
+    "name": "Automation ล้มเหลว",
+    "description": "การรัน automation ล้มเหลว"
+   }
+  },
+  "budgetThreshold": {
+   "title": "ใช้งบประมาณไปแล้ว {{percent}}%",
+   "body": "ยอดรวมบัญชี: ใช้ {{consumed}} จาก {{limit}} ACU ในงวดนี้",
+   "bodyForBudget": "{{name}}: ใช้ {{consumed}} จาก {{limit}} ACU ในงวดนี้",
+   "viewUsage": "ดูการใช้งาน",
+   "outcome": {
+    "superseded": "ถึงเกณฑ์ที่สูงกว่าแล้ว",
+    "period_ended": "งวดสิ้นสุดแล้ว"
+   },
+   "settings": {
+    "name": "ถึงเกณฑ์งบประมาณ",
+    "description": "การใช้งานข้ามเกณฑ์ของงบประมาณการใช้งาน"
+   }
+  },
+  "integrationDisconnected": {
+   "title": "{{integration}} ขาดการเชื่อมต่อ",
+   "body": "Devin เชื่อมต่อ {{integration}} ไม่ได้ เซสชันที่ต้องการมันจะล้มเหลวจนกว่าจะเชื่อมต่อใหม่",
+   "bodyNamed": "Devin เชื่อมต่อ {{integration}} ({{name}}) ไม่ได้ เซสชันที่ต้องการมันจะล้มเหลวจนกว่าจะเชื่อมต่อใหม่",
+   "reconnect": "เชื่อมต่อใหม่",
+   "outcome": {
+    "reconnected": "เชื่อมต่อใหม่แล้ว",
+    "removed": "นำออกแล้ว"
+   },
+   "settings": {
+    "name": "Integration ขาดการเชื่อมต่อ",
+    "description": "Devin ขาดการเชื่อมต่อกับ integration เช่น GitHub"
+   }
+  },
+  "teamsConnectionNeedsAttention": {
+   "title": "การเชื่อมต่อ Microsoft Teams ต้องการความสนใจของคุณ",
+   "body": {
+    "automation_channel_lost": "Automation ของ Microsoft Teams หยุดรับข้อความจากช่อง Devin AI อาจถูกนำออกจากทีม ช่องอาจถูกลบ หรือผู้ดูแล Teams อาจเพิกถอนสิทธิ์ช่องของ Devin เพิ่ม Devin AI กลับเข้าทีม หรืออัปเดต automation",
+    "bot_blocked": "Devin ตอบหรือโพสต์ใน Microsoft Teams ไม่ได้เพราะผู้ดูแล Teams บล็อกแอป Devin AI ขอให้ผู้ดูแล Teams อนุญาตแอป Devin AI ใน Teams admin center (Teams apps > Manage apps)"
+   },
+   "action": "เปิดการตั้งค่า",
+   "outcome": {
+    "resolved": "แก้ไขแล้ว"
+   },
+   "settings": {
+    "name": "Microsoft Teams ต้องการความสนใจของคุณ",
+    "description": "บางอย่างกำลังบล็อก Devin ใน Microsoft Teams"
+   }
+  },
+  "noAccess": {
+   "title": "คุณไม่มีสิทธิ์เข้าถึงอีกต่อไป",
+   "body": "การแจ้งเตือนนี้เกี่ยวกับสิ่งที่คุณดูไม่ได้อีกต่อไป"
+  },
+  "patRequestResolved": {
+   "title": {
+    "approved": "คำขอ token ของคุณได้รับการอนุมัติ",
+    "denied": "คำขอ token ของคุณถูกปฏิเสธ"
+   },
+   "body": {
+    "approved": "คำขอ personal access token \"{{name}}\" ของคุณได้รับการอนุมัติ",
+    "approvedReviewed": "{{reviewer}} อนุมัติคำขอ personal access token \"{{name}}\" ของคุณ",
+    "denied": "คำขอ personal access token \"{{name}}\" ของคุณถูกปฏิเสธ",
+    "deniedReviewed": "{{reviewer}} ปฏิเสธคำขอ personal access token \"{{name}}\" ของคุณ"
+   },
+   "activateToken": "เปิดใช้งาน token",
+   "outcome": {
+    "activated": "เปิดใช้งาน token แล้ว",
+    "cancelled": "ยกเลิกคำขอแล้ว",
+    "expired": "คำขอหมดอายุแล้ว"
+   },
+   "settings": {
+    "name": "คำขอ access token ของคุณได้รับคำตอบ",
+    "description": "คำขอ access token ของคุณได้รับการอนุมัติหรือปฏิเสธ"
+   }
+  },
+  "sessionFinished": {
+   "body": "ทำงานเสร็จแล้ว",
+   "bodyWithPullRequest": "PR พร้อมรีวิวแล้ว",
+   "untitledSession": "เซสชันของคุณ",
+   "openSession": "เปิดเซสชัน",
+   "viewPullRequest": "ดู PR",
+   "outcome": {
+    "pr_merged": "PR merge แล้ว"
+   },
+   "settings": {
+    "name": "เซสชันเสร็จแล้ว",
+    "description": "เซสชันที่คุณเริ่มทำงานเสร็จแล้ว"
+   }
+  },
+  "sessionNeedsAttention": {
+   "untitledSession": "เซสชันของคุณ",
+   "openSession": "เปิดเซสชัน",
+   "waitingForInput": "Devin กำลังรอข้อมูลจากคุณ",
+   "waitingForResponse": "รอการตอบกลับ",
+   "approvalRequired": "ต้องการการอนุมัติ",
+   "approveWorkflow": "อนุมัติ workflow",
+   "networkAccessRequested": "มีการขอเข้าถึงเครือข่าย",
+   "outcome": {
+    "resolved": "ตอบแล้ว"
+   },
+   "settings": {
+    "name": "เซสชันต้องการความสนใจของคุณ",
+    "description": "Devin กำลังรอข้อมูลหรือการอนุมัติจากคุณ"
+   }
+  },
+  "sessionSharedWithYou": {
+   "title": "เซสชันถูกแชร์กับคุณ",
+   "body": "{{name}} แชร์เซสชันกับคุณ",
+   "settings": {
+    "name": "เซสชันถูกแชร์กับคุณ",
+    "description": "มีคนแชร์เซสชันกับคุณ"
+   }
+  },
+  "sessionsRestartable": {
+   "title": "เซสชันที่หยุดสามารถเริ่มใหม่ได้",
+   "body": "{{count}} เซสชันของคุณถูกหยุดโดยขีดจำกัดการใช้งานที่ถูกเพิ่มขึ้นแล้ว",
+   "bodyOne": "หนึ่งเซสชันของคุณถูกหยุดโดยขีดจำกัดการใช้งานที่ถูกเพิ่มขึ้นแล้ว",
+   "bodyResumed": "เซสชันที่ถูกหยุดโดยขีดจำกัดการใช้งานของคุณทำต่อแล้ว",
+   "bodyUnavailable": "เซสชันที่ถูกหยุดโดยขีดจำกัดการใช้งานของคุณทำต่อไม่ได้อีก",
+   "reviewAndResume": "รีวิวและทำต่อ",
+   "outcome": {
+    "resumed": "ทำต่อแล้ว"
+   },
+   "settings": {
+    "name": "เซสชันที่หยุดสามารถเริ่มใหม่ได้",
+    "description": "เซสชันที่ถูกหยุดโดยขีดจำกัดการใช้งานทำต่อได้"
+   }
+  },
+  "settingsGroups": {
+   "sessions": {
+    "name": "เซสชันของฉัน",
+    "description": "เซสชันที่ต้องการคุณ เสร็จแล้ว หรือเริ่มใหม่ได้"
+   },
+   "reviews": {
+    "name": "PR และรีวิว",
+    "description": "คำขอรีวิว กิจกรรมบน PR ของคุณ และผล Devin Review"
+   },
+   "billing": {
+    "name": "การใช้งานและการเรียกเก็บเงิน",
+    "description": "ขีดจำกัดการใช้งาน งบประมาณ และวันสัญญา"
+   },
+   "requests": {
+    "name": "คำขอและการอนุมัติ",
+    "description": "คำขอที่รอคุณ และคำตอบของคำขอของคุณเอง"
+   },
+   "automations": {
+    "name": "Automation และ integration",
+    "description": "การรันที่ล้มเหลว integration ที่ขาดการเชื่อมต่อ และ webhook ที่ปิด"
+   },
+   "security": {
+    "name": "ความปลอดภัย",
+    "description": "การเปลี่ยนแปลงการตั้งค่าความปลอดภัยขององค์กร"
+   }
+  },
+  "usageLimitReached": {
+   "title": "เกินขีดจำกัดการใช้งานของคุณ",
+   "body": "{{count}} เซสชันถูกหยุดเพราะคุณถึงขีดจำกัดการใช้งาน",
+   "bodyOne": "1 เซสชันถูกหยุดเพราะคุณถึงขีดจำกัดการใช้งาน",
+   "requestMore": "ขอเพิ่ม",
+   "requestPending": "คำขอกำลังรอ",
+   "outcome": {
+    "limit_raised": "เพิ่มขีดจำกัดแล้ว"
+   },
+   "settings": {
+    "name": "ถึงขีดจำกัดการใช้งาน",
+    "description": "เซสชันของคุณถูกหยุดเพราะคุณถึงขีดจำกัดการใช้งาน"
+   }
+  },
+  "usageRequestResolved": {
+   "title": {
+    "approved": "คำขอการใช้งานของคุณได้รับการอนุมัติ",
+    "denied": "คำขอการใช้งานของคุณถูกปฏิเสธ",
+    "expired": "คำขอการใช้งานของคุณหมดอายุ"
+   },
+   "body": {
+    "approved": "คำขอ {{amount}} ACU ของคุณได้รับการอนุมัติ",
+    "approvedReviewed": "{{reviewer}} อนุมัติคำขอ {{amount}} ACU ของคุณ",
+    "denied": "คำขอ {{amount}} ACU ของคุณถูกปฏิเสธ",
+    "deniedReviewed": "{{reviewer}} ปฏิเสธคำขอ {{amount}} ACU ของคุณ",
+    "expired": "คำขอ {{amount}} ACU ของคุณหมดอายุพร้อมรอบบิลที่ทำ",
+    "approvedDollars": "คำขอ ${{amount}} ของคุณได้รับการอนุมัติ",
+    "approvedReviewedDollars": "{{reviewer}} อนุมัติคำขอ ${{amount}} ของคุณ",
+    "deniedDollars": "คำขอ ${{amount}} ของคุณถูกปฏิเสธ",
+    "deniedReviewedDollars": "{{reviewer}} ปฏิเสธคำขอ ${{amount}} ของคุณ",
+    "expiredDollars": "คำขอ ${{amount}} ของคุณหมดอายุพร้อมรอบบิลที่ทำ"
+   },
+   "restartSessions": "เริ่มเซสชันใหม่",
+   "settings": {
+    "name": "คำขอการใช้งานของคุณได้รับคำตอบ",
+    "description": "คำขอขีดจำกัดการใช้งานที่สูงขึ้นของคุณได้รับการอนุมัติหรือปฏิเสธ"
+   }
+  },
+  "usageRequestSubmitted": {
+   "title": " ต้องการเพิ่มขีดจำกัดการใช้งาน",
+   "body": "{{name}} ขอเพิ่มขีดจำกัดการใช้งาน",
+   "bodyLimit": "{{name}} ขอขีดจำกัดการใช้งาน {{limit}} ACU",
+   "bodyLimitDollars": "{{name}} ขอขีดจำกัดการใช้งาน ${{limit}}",
+   "bodyBlockedLimit": "{{name}} ถึงขีดจำกัดการใช้งานและถูกบล็อกจากการเริ่มงานใหม่ เขาขอขีดจำกัด {{limit}} ACU",
+   "bodyBlockedLimitDollars": "{{name}} ถึงขีดจำกัดการใช้งานและถูกบล็อกจากการเริ่มงานใหม่ เขาขอขีดจำกัด ${{limit}}",
+   "actions": {
+    "approve": "อนุมัติ",
+    "deny": "ปฏิเสธ"
+   },
+   "outcome": {
+    "approved": "อนุมัติแล้ว",
+    "denied": "ปฏิเสธแล้ว",
+    "canceled": "ยกเลิกแล้ว",
+    "expired": "หมดอายุแล้ว"
+   },
+   "settings": {
+    "name": "คำขอการใช้งานที่ต้องอนุมัติ",
+    "description": "มีคนขอขีดจำกัดการใช้งานที่สูงขึ้นและคุณอนุมัติได้"
+   }
+  }
+ }
+},
+"notificationPreferences": {
+ "title": "การแจ้งเตือน",
+ "description": "เลือกการแจ้งเตือนที่ไปถึงกล่องขาเข้าของคุณ และที่พุชไปยังอุปกรณ์ของคุณ",
+ "mobile": "มือถือ",
+ "desktop": "เดสก์ท็อป",
+ "mobilePushFor": "พุช \"{{name}}\" ไปมือถือ",
+ "desktopPushFor": "พุช \"{{name}}\" ไปเดสก์ท็อป",
+ "lockedOn": "การแจ้งเตือนนี้เปิดเสมอและปิดไม่ได้",
+ "someOn": "เปิดบางส่วน",
+ "showTypes": "แสดงการแจ้งเตือนใน \"{{name}}\"",
+ "hideTypes": "ซ่อนการแจ้งเตือนใน \"{{name}}\"",
+ "noMobileDevice": "การพุชมือถือต้องการแอป Devin บนมือถือ ที่ล็อกอินและอนุญาตการแจ้งเตือน",
+ "systemNotificationsOff": "การพุชเดสก์ท็อปจะไปถึงอุปกรณ์นี้ไม่ได้เพราะการแจ้งเตือนระบบปิดอยู่ที่นี่",
+ "openSystemNotifications": "เปิดในการตั้งค่า",
+ "loadError": "โหลดการตั้งค่าการแจ้งเตือนไม่ได้",
+ "empty": "ยังไม่มีการแจ้งเตือนให้ตั้งค่า"
+},
+"systemNotifications": {
+ "needsAttention": "Devin ต้องการความสนใจของคุณ",
+ "blocked": "Devin หยุดและรอข้อมูลจากคุณ",
+ "waiting": "Devin กำลังรอข้อมูลจากคุณเพื่อดำเนินการต่อ",
+ "finishedWorking": "ทำงานเสร็จแล้ว",
+ "waitingForInput": "รอข้อมูลจากคุณ",
+ "untitled": "การสนทนาไม่มีชื่อ"
+},
+"common": {
+ "availableToAdmins": "ใช้ได้สำหรับผู้ดูแล",
+ "appliedFilter": "ใช้ตัวกรองแล้ว",
+ "cancel": "ยกเลิก",
+ "close": "ปิด",
+ "copied": "คัดลอกแล้ว",
+ "copy": "คัดลอก",
+ "copyLink": "คัดลอกลิงก์",
+ "cut": "ตัด",
+ "deselectAllEnterprisesOnPage": "ยกเลิกเลือก enterprise ทั้งหมดในหน้านี้",
+ "deselectAllOtherEnterprises": "ยกเลิกเลือก enterprise อื่นทั้งหมดในหน้านี้",
+ "deselectAllYourEnterprises": "ยกเลิกเลือก enterprise ของคุณทั้งหมดในหน้านี้",
+ "failedToCopyLink": "คัดลอกลิงก์ไม่สำเร็จ",
+ "inProgress": "กำลังดำเนินการ",
+ "linkCopied": "คัดลอกลิงก์แล้ว",
+ "learnMore": "เรียนรู้เพิ่มเติม",
+ "loading": "กำลังโหลด…",
+ "notAppliedFilter": "ไม่ได้ใช้ตัวกรอง",
+ "openInNewTab": "เปิดในแท็บใหม่",
+ "openInExternalBrowser": "เปิดในเบราว์เซอร์ภายนอก",
+ "paste": "วาง",
+ "user": "ผู้ใช้",
+ "selectAllEnterprisesOnPage": "เลือก enterprise ทั้งหมดในหน้านี้",
+ "selectAllOtherEnterprises": "เลือก enterprise อื่นทั้งหมดในหน้านี้",
+ "selectAllYourEnterprises": "เลือก enterprise ของคุณทั้งหมดในหน้านี้",
+ "selectedFilter": "ตัวกรองที่เลือก",
+ "selectedOption": "ตัวเลือกที่เลือก",
+ "selectedTeam": "ทีมที่เลือก",
+ "sending": "กำลังส่ง…",
+ "skipToMainContent": "ข้ามไปเนื้อหาหลัก",
+ "syncing": "กำลังซิงก์",
+ "unselectedFilter": "ตัวกรองที่ไม่ได้เลือก",
+ "unselectedOption": "ตัวเลือกที่ไม่ได้เลือก",
+ "unselectedTeam": "ทีมที่ไม่ได้เลือก"
+},
+"doneToast": {
+ "archivedSessions_one": "เก็บถาวร {{count}} เซสชันแล้ว",
+ "archivedSessions_other": "เก็บถาวร {{count}} เซสชันแล้ว",
+ "unarchivedSessions_one": "เลิกเก็บถาวร {{count}} เซสชันแล้ว",
+ "unarchivedSessions_other": "เลิกเก็บถาวร {{count}} เซสชันแล้ว",
+ "markedDone": "ทำเครื่องหมายเซสชันว่าเสร็จแล้ว",
+ "markedDoneDescription": "ย้ายเซสชันไปโฟลเดอร์เสร็จแล้วในแถบข้าง",
+ "markedDoneDescriptionLocal": "หยุดเอเจนต์และย้ายไปโฟลเดอร์เสร็จแล้ว",
+ "stopped": "ทำเครื่องหมายเซสชันว่าเสร็จและหยุดแล้ว",
+ "stoppedDescription": "หยุด VM และย้ายไปโฟลเดอร์เสร็จแล้ว",
+ "stoppedPrsClosedDescription_one": "ปิด PR หยุด VM และย้ายไปโฟลเดอร์เสร็จแล้ว",
+ "stoppedPrsClosedDescription_other": "ปิด PR หยุด VM และย้ายไปโฟลเดอร์เสร็จแล้ว",
+ "archived": "เซสชันหยุดแล้ว",
+ "archivedDescription": "หยุด VM แล้ว",
+ "archivedDescriptionLocal": "หยุดเอเจนต์แล้ว",
+ "archivedPrsClosedDescription_one": "ปิด PR และหยุด VM แล้ว",
+ "archivedPrsClosedDescription_other": "ปิด PR และหยุด VM แล้ว",
+ "stoppedMany_one": "หยุด {{count}} เซสชันแล้ว",
+ "stoppedMany_other": "หยุด {{count}} เซสชันแล้ว",
+ "resumed": "เซสชันทำต่อแล้ว",
+ "resumedMany_one": "ทำ {{count}} เซสชันต่อแล้ว",
+ "resumedMany_other": "ทำ {{count}} เซสชันต่อแล้ว",
+ "stopFailed_one": "หยุดเซสชันไม่สำเร็จ กรุณาลองอีกครั้ง",
+ "stopFailed_other": "หยุดเซสชันไม่สำเร็จ กรุณาลองอีกครั้ง",
+ "resumeFailed_one": "ทำเซสชันต่อไม่สำเร็จ กรุณาลองอีกครั้ง",
+ "resumeFailed_other": "ทำเซสชันต่อไม่สำเร็จ กรุณาลองอีกครั้ง",
+ "markedNotDone": "ทำเครื่องหมายว่ายังไม่เสร็จแล้ว",
+ "markDoneFailed": "ทำเครื่องหมายเซสชันว่าเสร็จไม่สำเร็จ กรุณาลองอีกครั้ง",
+ "subscribeFailed": "ติดตามไม่สำเร็จ กรุณาลองอีกครั้ง",
+ "unsubscribeFailed": "เลิกติดตามไม่สำเร็จ กรุณาลองอีกครั้ง",
+ "unsubscribedAndStopped": "เลิกติดตามและหยุดแล้ว",
+ "autoStoppedDescription": "ไม่มีใครติดตามอยู่ จึงถูกหยุด",
+ "resume": "ทำต่อ",
+ "resumeActionFailed": "ทำต่อไม่สำเร็จ"
+},
+"eyebrow": {
+ "shareSessionWithSuperdevin_one": "เซสชันนี้จะถูกแชร์กับ <superdevins></superdevins>",
+ "shareSessionWithSuperdevin_other": "เซสชันนี้จะถูกแชร์กับ <superdevins></superdevins>",
+ "shareSessionFailed": "แชร์เซสชันนี้กับ {{botName}} ไม่ได้ ลองอีกครั้ง",
+ "sharePluginWithSuperdevin_one": "ปลั๊กอิน <plugins></plugins> จะถูกแชร์กับ {{botName}} นี้",
+ "sharePluginWithSuperdevin_other": "ปลั๊กอิน <plugins></plugins> จะถูกแชร์กับ {{botName}} นี้",
+ "sharePluginFailed": "แชร์ปลั๊กอินกับ {{botName}} นี้ไม่ได้ ลองอีกครั้ง",
+ "efficiencyNeedsImprovement": "ประสิทธิภาพเซสชันของคุณต้องปรับปรุง",
+ "maxUsageLimit": "คุณใช้ {{used}}/{{limit}} ACU ({{pct}}%) ของขีดจำกัดการใช้งานสูงสุด",
+ "maxUsageLimitWithReset": "คุณใช้ {{used}}/{{limit}} ACU ({{pct}}%) ของขีดจำกัดการใช้งานสูงสุด (รีเซ็ต{{resets}}เวลา {{resetsTime}})",
+ "maxUsageLimitDollars": "คุณใช้ {{used}}/{{limit}} ({{pct}}%) ของขีดจำกัดการใช้งานสูงสุด",
+ "maxUsageLimitWithResetDollars": "คุณใช้ {{used}}/{{limit}} ({{pct}}%) ของขีดจำกัดการใช้งานสูงสุด (รีเซ็ต{{resets}}เวลา {{resetsTime}})",
+ "localChangesFiles_one": "{{count}} ไฟล์เปลี่ยนแปลง",
+ "localChangesFiles_other": "{{count}} ไฟล์เปลี่ยนแปลง",
+ "localChangesView": "ดูการเปลี่ยนแปลง",
+ "localChangesMarkSeen": "ทำเครื่องหมายว่าเห็นแล้ว",
+ "modeEfficiency": "{{mode}} ถูกลงสูงสุด {{percent}}%",
+ "modeEfficiencyLearnMore": "เรียนรู้เพิ่มเติม",
+ "connectProvider": "เชื่อมต่อ {{provider}}",
+ "connectProviderMessage": "เชื่อมต่อบัญชี {{provider}} เพื่อเปิด PR ด้วย Devin",
+ "connectProviderRepositoriesMessage": "เชื่อมต่อบัญชี {{provider}} เพื่อดู repository ของคุณ",
+ "dismiss": "ปิดทิ้ง",
+ "loading": "กำลังโหลด...",
+ "missingSetup": "เครื่องของ Devin ขาดการตั้งค่าบางอย่าง งานอาจช้าลง",
+ "requestMoreUsage": "ขอเพิ่ม",
+ "setupIncomplete": "การตั้งค่าไม่สมบูรณ์",
+ "usageLimit": "คุณใช้ {{used}}/{{limit}} ACU ({{pct}}%) ของขีดจำกัดการใช้งาน",
+ "usageLimitDollars": "คุณใช้ {{used}}/{{limit}} ({{pct}}%) ของขีดจำกัดการใช้งาน",
+ "usageLimitPrimaryHitFallback": "คุณถึงขีดจำกัดการใช้งานหลักแล้ว ตอนนี้อยู่ในการใช้งานแบบลดลง",
+ "usageLimitPrimaryHitFallbackWithReset": "คุณถึงขีดจำกัดการใช้งานหลักแล้ว (รีเซ็ต{{resets}}เวลา {{resetsTime}}) ตอนนี้อยู่ในการใช้งานแบบลดลง",
+ "usageLimitPrimaryHitRemaining": "คุณถึงขีดจำกัดการใช้งานหลักแล้ว เหลือ {{fallbackRemaining}} ACU ในการใช้งานแบบลดลง",
+ "usageLimitPrimaryHitRemainingDollars": "คุณถึงขีดจำกัดการใช้งานหลักแล้ว เหลือ {{fallbackRemaining}} ในการใช้งานแบบลดลง",
+ "usageLimitPrimaryHitRemainingWithReset": "คุณถึงขีดจำกัดการใช้งานหลักแล้ว (รีเซ็ต{{resets}}เวลา {{resetsTime}}) เหลือ {{fallbackRemaining}} ACU ในการใช้งานแบบลดลง",
+ "usageLimitPrimaryHitRemainingWithResetDollars": "คุณถึงขีดจำกัดการใช้งานหลักแล้ว (รีเซ็ต{{resets}}เวลา {{resetsTime}}) เหลือ {{fallbackRemaining}} ในการใช้งานแบบลดลง",
+ "usageLimitWithReset": "คุณใช้ {{used}}/{{limit}} ACU ({{pct}}%) ของขีดจำกัดการใช้งาน (รีเซ็ต{{resets}}เวลา {{resetsTime}})",
+ "usageLimitWithResetDollars": "คุณใช้ {{used}}/{{limit}} ({{pct}}%) ของขีดจำกัดการใช้งาน (รีเซ็ต{{resets}}เวลา {{resetsTime}})",
+ "usagePace": "คุณกำลังใช้ในแนวโน้ม {{projected}}%",
+ "viewDetails": "ดูรายละเอียด"
+},
+"moreButton": {
+ "addRepositories": "เพิ่ม repository",
+ "configuration": "การตั้งค่า",
+ "connectGithubOrg": "เชื่อมต่อองค์กร GitHub",
+ "connecting": "กำลังเชื่อมต่อ...",
+ "countSelected": "เลือก {{countLabel}} แล้ว",
+ "default": "ค่าเริ่มต้น",
+ "disabledInAskMode": "ปิดใช้งานในโหมด Ask",
+ "enterprise": "Enterprise",
+ "environment": "สภาพแวดล้อม",
+ "internalOnly": "ภายในเท่านั้น",
+ "loading": "กำลังโหลด...",
+ "loadingOrchestrators": "กำลังโหลด orchestrator...",
+ "loadingProfiles": "กำลังโหลดโปรไฟล์...",
+ "manageMcpConnectors": "จัดการ MCP connector",
+ "manageProfiles": "จัดการโปรไฟล์",
+ "noEnvironmentsFound": "ไม่พบสภาพแวดล้อม",
+ "none": "ไม่มี",
+ "restrictedProfile": "โปรไฟล์ที่จำกัด",
+ "notableRepositories": "Repository ที่สำคัญ",
+ "oncallMode": "โหมด Oncall",
+ "only": "เฉพาะ",
+ "orchestratorSettings": "การตั้งค่า orchestrator",
+ "organization": "องค์กร",
+ "searchEnvironments": "ค้นหาสภาพแวดล้อม",
+ "securityProfile": "โปรไฟล์ความปลอดภัย",
+ "selected": "เลือกแล้ว",
+ "virtualEnvironment": "สภาพแวดล้อมเสมือน"
+},
+"activity": {
+ "searchPlaceholder": "ค้นหาหรือกรอง (type:shell, -status:failed)…",
+ "live": "สด",
+ "rows_one": "{{count}} แถว",
+ "rows_other": "{{count}} แถว",
+ "toggleRun": "พับหรือกางแถวของการรัน",
+ "toggleTurn": "พับหรือกางแถวของคำขอนี้",
+ "noWorkYet": "Devin ยังไม่ได้ทำงานอะไร...",
+ "noMatches": "ไม่มีเหตุการณ์ที่ตรงกับตัวกรองปัจจุบัน",
+ "clearFilters": "ล้างตัวกรอง",
+ "hiddenSelected": "แถวที่เลือกถูกซ่อนโดยตัวกรอง",
+ "loadFailed": "โหลดเหตุการณ์ไม่สำเร็จ",
+ "resizePanel": "ปรับขนาดแผง",
+ "statusRunning": "กำลังทำงาน",
+ "statusOk": "ออกด้วย 0",
+ "statusFailed": "ล้มเหลว",
+ "kind": {
+  "shell": "Shell",
+  "edit": "การแก้ไข",
+  "read": "การอ่าน",
+  "browser": "เบราว์เซอร์",
+  "search": "การค้นหา",
+  "mcp": "MCP",
+  "knowledge": "Knowledge",
+  "plan": "แผน",
+  "git": "Git",
+  "message": "ข้อความ",
+  "other": "อื่นๆ"
+ },
+ "showAll": "แสดงทั้งหมด",
+ "previousRow": "เหตุการณ์ก่อนหน้า",
+ "nextRow": "เหตุการณ์ถัดไป",
+ "selectEvent": "เลือกเหตุการณ์เพื่อดูเพิ่มเติม",
+ "watchLive": "ดู Devin ทำงานสด",
+ "event": {
+  "userMessage": "ข้อความผู้ใช้",
+  "devinMessage": "ข้อความ Devin",
+  "executedCommand": "คำสั่งที่รัน",
+  "createdFile": "ไฟล์ที่สร้าง",
+  "editedFile": "ไฟล์ที่แก้ไข",
+  "readFile": "ไฟล์ที่อ่าน",
+  "deletedFile": "ไฟล์ที่ลบ",
+  "renamedFile": "ไฟล์ที่เปลี่ยนชื่อ",
+  "changedFiles_one": "เปลี่ยน {{count}} ไฟล์",
+  "changedFiles_other": "เปลี่ยน {{count}} ไฟล์",
+  "readFiles_one": "อ่าน {{count}} ไฟล์",
+  "readFiles_other": "อ่าน {{count}} ไฟล์"
+ },
+ "facet": {
+  "type": "ประเภท",
+  "status": "สถานะ",
+  "shell": "Shell"
+ },
+ "only": "เฉพาะ",
+ "filterBy": "กรองด้วย {{term}}",
+ "excludeTerm": "ยกเว้น {{term}}",
+ "searchFor": "ค้นหา \"{{text}}\"",
+ "excludeText": "ยกเว้น \"{{text}}\"",
+ "viewInContext": "ดูในบริบท",
+ "editFilter": "แก้ไขตัวกรอง",
+ "removeFilter": "นำตัวกรองออก"
+},
+"welcome": {
+ "advancedMcpBanner": "ทุกเซสชัน Devin มี <mcpLink>Devin MCP</mcpLink> ในตัวและยืนยันตัวตนแล้ว — ไม่ต้องตั้งค่า Devin ใดก็ตรวจสอบเซสชันอื่น จัดการ <playbooksLink>playbook</playbooksLink> และเริ่มเซสชันแบบกลุ่มได้",
+ "askDevinAboutCode": "ถาม Devin เกี่ยวกับโค้ดของคุณ",
+ "backToDevin": "กลับไปที่ Devin",
+ "buildSnapshot": "สร้าง snapshot",
+ "connect": "เชื่อมต่อ",
+ "connectCodebaseFree": "เชื่อมต่อ codebase เพื่อลอง Devin ฟรี",
+ "connectMessagingApp": "นำ Devin เข้า Slack หรือ Microsoft Teams ของทีมคุณ",
+ "connectMicrosoftTeams": "นำ Devin เข้า Microsoft Teams ของทีมคุณ",
+ "connectSlack": "นำ Devin เข้า Slack ของทีมคุณ",
+ "onlyImageFilesSupported": "รองรับเฉพาะไฟล์รูปภาพ (.png, .jpg, .jpeg, .gif, .webp)",
+ "openSessionLinks": "เปิดลิงก์เซสชัน",
+ "organization": "องค์กร",
+ "snapshotNotBuilt": "สร้าง Snapshot เพื่อให้ Devin เริ่มได้ทันที",
+ "startOnboarding": "เริ่ม onboarding",
+ "subscribe": "สมัครสมาชิก",
+ "tagsRequiredNotConfigured": "แท็กเซสชันจำเป็นแต่ไม่มีแท็กที่อนุญาตตั้งค่าไว้สำหรับองค์กรนี้ ติดต่อผู้ดูแลของคุณ",
+ "trialDisabled": "การเริ่มเซสชันฟรีถูกปิดเพราะโหลดสูง กรุณาสมัครสมาชิก",
+ "trialDisabledHighLoad": "การเริ่มเซสชันฟรีถูกปิดชั่วคราวเพราะโหลดสูง ขออภัยในความไม่สะดวก"
+},
+"account": {
+ "addOrCreateOrganization": "สร้างบัญชีใหม่",
+ "avatarAlt": "อวาตาร์ของ {{name}}",
+ "blockedLimitUsers_one": "{{count}} สมาชิกถึงขีดจำกัด ACU",
+ "blockedLimitUsers_other": "{{count}} สมาชิกถึงขีดจำกัด ACU",
+ "blockedUsersBanner_one": "{{count}} ผู้ใช้ถูกบล็อกเนื่องจากขีดจำกัด ACU ต่อผู้ใช้ — กรุณาตรวจสอบหน้า <settingsLink>นโยบายการใช้งาน</settingsLink>",
+ "blockedUsersBanner_other": "{{count}} ผู้ใช้ถูกบล็อกเนื่องจากขีดจำกัด ACU ต่อผู้ใช้ — กรุณาตรวจสอบหน้า <settingsLink>นโยบายการใช้งาน</settingsLink>",
+ "devinSettings": "การตั้งค่า Devin",
+ "enterprise": "Enterprise",
+ "enterpriseSettings": "การตั้งค่า enterprise",
+ "inviteMembers": "เชิญสมาชิก",
+ "logOut": "ออกจากระบบ",
+ "manageAccounts": "จัดการบัญชี",
+ "memberCount": "{{count}} สมาชิก",
+ "memberCount_other": "{{count}} สมาชิก",
+ "new": "ใหม่",
+ "noResultsFound": "ไม่พบผลลัพธ์",
+ "organizationSettings": "การตั้งค่าองค์กร",
+ "personal": "ส่วนตัว",
+ "searchAccounts": "ค้นหาบัญชี",
+ "switchAccount": "สลับบัญชี",
+ "teamAndPersonal": "ทีมและส่วนตัว",
+ "upgrade": "อัปเกรด"
+}
+}

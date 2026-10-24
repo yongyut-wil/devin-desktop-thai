@@ -1,0 +1,410 @@
+{
+"ui": {
+ "crontabEditor": {
+  "visual": "ภาพรวม",
+  "custom": "กำหนดเอง",
+  "repeatEvery": "ทำซ้ำทุก",
+  "unitHour_one": "ชั่วโมง",
+  "unitHour_other": "ชั่วโมง",
+  "unitDay_one": "วัน",
+  "unitDay_other": "วัน",
+  "unitWeek_one": "สัปดาห์",
+  "unitWeek_other": "สัปดาห์",
+  "selectUnit": "เลือกหน่วยกำหนดเวลา",
+  "time": "เวลา",
+  "hour": "ชั่วโมง (0-23)",
+  "minute": "นาที (0-59)",
+  "repeatOn": "ทำซ้ำเมื่อ",
+  "cronExpression": "Cron Expression",
+  "cronFormat": "รูปแบบ: minute hour day month weekday ({{zone}})",
+  "utc": "UTC",
+  "apply": "ใช้",
+  "daySun": "อา",
+  "dayMon": "จ",
+  "dayTue": "อ",
+  "dayWed": "พ",
+  "dayThu": "พฤ",
+  "dayFri": "ศ",
+  "daySat": "ส"
+ }
+},
+"windsurf": {
+ "codemapSharing": {
+  "label": "การแชร์",
+  "ariaLabel": "การแชร์ Codemap",
+  "modePrivate": "เฉพาะฉัน",
+  "modeTeam": "ทีม",
+  "modePublic": "ใครก็ได้ที่มีลิงก์",
+  "updated": "อัปเดตการแชร์แล้ว",
+  "updateFailed": "อัปเดตการแชร์ไม่สำเร็จ"
+ }
+},
+"contextMap": {
+ "tree": {
+  "expand": "ขยาย",
+  "collapse": "ยุบ",
+  "mapTree": "ต้นไม้แผนที่"
+ }
+},
+"markdown": {
+ "invalidAttachment": "ไฟล์แนบไม่ถูกต้อง"
+},
+"markdownContent": {
+ "preview": "พรีวิว",
+ "source": "ต้นฉบับ",
+ "noAccess": "คุณไม่มีสิทธิ์ดูไฟล์นี้",
+ "notFound": "ไม่พบไฟล์ใน repository นี้",
+ "loadFailed": "โหลดไฟล์ไม่สำเร็จ",
+ "frontmatter": "Frontmatter",
+ "copy": "คัดลอกเนื้อหา"
+},
+"quoting": {
+ "editorNotice": "เนื้อหา editor ที่อ้างถึง"
+},
+"upgradeButton": {
+ "upgrade": "อัปเกรด"
+},
+"filteredCheckboxList": {
+ "selectAll": "เลือก {{label}} ทั้งหมด ({{count}})"
+},
+"filterTags": {
+ "loadingTags": "กำลังโหลดแท็ก...",
+ "recentlyUsedTags": "แท็กที่ใช้ล่าสุด",
+ "searchTags": "ค้นหาแท็ก...",
+ "selectedTags": "แท็กที่เลือก",
+ "tagsCount": "{{count}} แท็ก"
+},
+"infoTip": {
+ "moreInformation": "ข้อมูลเพิ่มเติม"
+},
+"campaigns": {
+ "panel": {
+  "eyebrow": "แคมเปญ",
+  "sampleData": "ข้อมูลตัวอย่าง",
+  "untitled": "แคมเปญใหม่",
+  "setup": "ตั้งค่าแคมเปญ",
+  "live": "สด",
+  "saveFailed": "บันทึกลงแคมเปญไม่ได้ ลองอีกครั้ง",
+  "phase": {
+   "goal": "เป้าหมาย",
+   "metrics": "ตัวชี้วัด",
+   "levers": "ตัวขับเคลื่อน",
+   "budget": "งบประมาณ"
+  },
+  "goal": {
+   "approve": "อนุมัติเป้าหมาย",
+   "revise": "แก้ไขในแชท",
+   "footerNote": "การอนุมัติเป้าหมายจะพา Devin ไปยังตัวชี้วัด",
+   "forming": "กำลังกำหนดเป้าหมาย"
+  },
+  "metrics": {
+   "subtitleLoading": "Devin กำลังดึง baseline ของแต่ละตัวชี้วัด",
+   "subtitleReady": "อนุมัติตัวชี้วัดที่วัดเป้าหมาย หรือนำออกที่ไม่ใช่",
+   "pending": "กำลังคิวรี baseline…",
+   "chartLabel": "{{name}}: {{current}}, เป้าหมาย {{target}}",
+   "singleReadingAt": "การอ่านครั้งเดียว วัดเมื่อ {{date}}",
+   "singleReading": "การอ่านครั้งเดียว",
+   "details": "รายละเอียดของ {{name}}",
+   "waitingForTargets": "รอเป้าหมายของ Devin ก่อนยืนยันได้",
+   "footerNote": "สิ่งที่คุณไม่ตัดสินจะนับว่าอนุมัติ",
+   "removedNote_one": "{{count}} ตัวชี้วัดจะถูกนำออก",
+   "removedNote_other": "{{count}} ตัวชี้วัดจะถูกนำออก",
+   "confirm_one": "ยืนยัน {{count}} ตัวชี้วัด",
+   "confirm_other": "ยืนยัน {{count}} ตัวชี้วัด"
+  },
+  "levers": {
+   "subtitle": "Automation ที่ขับเคลื่อนตัวชี้วัด อนุมัติอันที่ Devin รันได้",
+   "asksFirst": "ต้องการการอนุมัติของคุณ",
+   "asksFirstHint": "Devin ถามคุณก่อนลงมือในแต่ละรอบ",
+   "state": {
+    "manual": "ด้วยตนเอง",
+    "dropped": "นำออกแล้ว"
+   },
+   "acuPerMonth": "~{{value}} ACU/เดือน",
+   "footerNote": "สิ่งที่คุณไม่ตัดสินจะนับว่าอนุมัติ",
+   "removedNote_one": "{{count}} ตัวขับเคลื่อนจะถูกนำออก",
+   "removedNote_other": "{{count}} ตัวขับเคลื่อนจะถูกนำออก",
+   "confirm_one": "ยืนยัน {{count}} ตัวขับเคลื่อน",
+   "confirm_other": "ยืนยัน {{count}} ตัวขับเคลื่อน"
+  },
+  "budget": {
+   "title": "งบประมาณรายเดือน",
+   "subtitle": "ACU ที่แคมเปญใช้ได้ต่อเดือน แบ่งข้ามตัวขับเคลื่อน",
+   "perMonth": "ACU / เดือน",
+   "proposed": "Devin เสนอ {{value}}",
+   "acu": "{{value}} ACU",
+   "footerNote": "การอนุมัติงบประมาณจะเริ่มแคมเปญ",
+   "approveAndKickOff": "อนุมัติ {{value}} ACU และเริ่ม",
+   "edit": "แก้ไขงบประมาณ",
+   "save": "บันทึกงบประมาณ",
+   "current": "ปัจจุบัน {{value}}"
+  },
+  "decision": {
+   "approve": "อนุมัติ",
+   "remove": "นำออก",
+   "undo": "ย้อนกลับ",
+   "approved": "อนุมัติแล้ว",
+   "removed": "นำออกแล้ว",
+   "approveAll": "อนุมัติทั้งหมด",
+   "approveItem": "อนุมัติ {{item}}",
+   "removeItem": "นำ {{item}} ออก",
+   "undoItem": "ย้อนการตัดสินใจบน {{item}}"
+  },
+  "slot": {
+   "empty": "ถัดไป",
+   "working": "Devin กำลังทำงาน",
+   "awaiting": "ตาคุณ",
+   "settled": "อนุมัติแล้ว",
+   "running": "สด"
+  },
+  "hint": {
+   "goal": "แคมเปญมีไว้ทำอะไร",
+   "metrics": "ตัวชี้วัดที่วัดมัน",
+   "levers": "Automation ที่ขับเคลื่อนมัน",
+   "budget": "ACU ต่อเดือน",
+   "metricsQuerying": "กำลังดึง baseline จากข้อมูลของคุณ",
+   "leversDrafting": "กำลังเสนอ automation สำหรับตัวชี้วัดเหล่านี้",
+   "metricsRunning": "{{onTrack}} จาก {{total}} ตามเป้า",
+   "budgetRunning": "ใช้ {{used}} จาก {{total}} ACU"
+  },
+  "kickoff": {
+   "title": "แคมเปญเริ่มแล้ว",
+   "subtitle": "Devin กำลังจัดการ ผลการอ่านจะมาที่นี่เมื่อเข้ามา"
+  },
+  "dashboard": {
+   "budgetUsed": "งบประมาณที่ใช้เดือนนี้",
+   "monthElapsed": "ผ่านไป {{pct}}% ของเดือน",
+   "onTrack": "ตามเป้า",
+   "needsAttention": "ต้องการความสนใจ",
+   "noReading": "ยังไม่มีการอ่าน",
+   "noSpend": "ยังไม่มีการใช้จ่ายที่บันทึก",
+   "sinceStart": "{{change}} ตั้งแต่เริ่ม"
+  }
+ }
+},
+"platformBadge": {
+ "runsOn": "เซสชันนี้รันบน {{label}}"
+},
+"blockers": {
+ "spendingFrozen": "ถึงขีดจำกัดการใช้ ACU แล้ว กรุณาติดต่อผู้ดูแล enterprise"
+},
+"avatarStack": {
+ "overflow_one": "อีก {{count}}",
+ "overflow_other": "อีก {{count}}"
+},
+"fileUploader": {
+ "dropFilesHere": "วางไฟล์ของคุณที่นี่",
+ "dropFilesToShare": "วางไฟล์เพื่อแชร์กับ Devin"
+},
+"dataTable": {
+ "clearSelection": "ล้างการเลือก",
+ "selectAllRows": "เลือกทุกแถว",
+ "selectRow": "เลือกแถว"
+},
+"comboboxFilter": {
+ "noOptionsAvailable": "ไม่มีตัวเลือก",
+ "noOptionsFound": "ไม่พบตัวเลือก",
+ "search": "ค้นหา...",
+ "selectOption": "เลือกตัวเลือก…"
+},
+"tagSelector": {
+ "noTags": "ไม่มีแท็ก",
+ "noTagsFound": "ไม่พบแท็ก",
+ "searchTags": "ค้นหาแท็ก…",
+ "selectATag": "เลือกแท็ก",
+ "selectATagEllipsis": "เลือกแท็ก…",
+ "selectTags": "เลือกแท็ก",
+ "tagsSelected_one": "เลือก {{count}} แท็ก",
+ "tagsSelected_other": "เลือก {{count}} แท็ก"
+},
+"linkAttachment": {
+ "edit": "แก้ไข",
+ "openSession": "เปิดเซสชัน",
+ "screenRecording": "การบันทึกหน้าจอ",
+ "thisSession": "เซสชันนี้"
+},
+"quotePill": {
+ "closeQuote": "”",
+ "openQuote": "“",
+ "quotedText": "“{{text}}”"
+},
+"voiceRecord": {
+ "processingEllipsis": "กำลังประมวลผล...",
+ "sendVoiceMessage": "ส่งข้อความเสียง"
+},
+"videoAttachment": {
+ "notSupported": "เบราว์เซอร์ของคุณไม่รองรับแท็กวิดีโอ",
+ "unavailable": "วิดีโอไม่พร้อมใช้งาน:"
+},
+"timeEstimate": {
+ "amount": "จำนวน",
+ "unit": "หน่วย",
+ "unitPlaceholder": "หน่วย"
+},
+"insights": {
+ "devinCoach": "Devin Coach",
+ "coachDescription": "ทีมของคุณตอบสนองต่อการโค้ชของ Devin อย่างไร พร้อมผลคำแนะนำทั่วองค์กรใน {{days}} วันล่าสุด",
+ "coachLoadError": "มีบางอย่างผิดพลาดขณะโหลดการวิเคราะห์ coach ขององค์กร",
+ "coachEmpty": "Devin โค้ชทีมของคุณขณะพิมพ์และทำงาน ผลคำแนะนำจะแสดงที่นี่",
+ "enterpriseCoachDescription": "enterprise ของคุณตอบสนองต่อการโค้ชของ Devin อย่างไร พร้อมผลคำแนะนำทั่วทุกองค์กรใน {{days}} วันล่าสุด",
+ "enterpriseCoachLoadError": "มีบางอย่างผิดพลาดขณะโหลดการวิเคราะห์ coach ของ enterprise",
+ "enterpriseCoachEmptyForOrg": "ไม่มีผลคำแนะนำใน {{org}} ใน {{days}} วันล่าสุด",
+ "enterpriseCoachEmpty": "Devin โค้ชทีมของคุณขณะพิมพ์และทำงาน ผลคำแนะนำจะแสดงที่นี่"
+},
+"labs": {
+ "title": "Labs",
+ "description": "ลองฟีเจอร์ทดลองก่อนออกจริง มีผลกับบัญชีของคุณเท่านั้น",
+ "empty": "ไม่มีการทดลองที่ใช้ได้ตอนนี้",
+ "stopEta": {
+  "title": "ETA เซสชัน",
+  "description": "แสดงการประมาณสดว่าอีกนานแค่ไหนจน Devin หยุดครั้งถัดไป ในแถบข้างและเหนือสถานะเซสชัน"
+ },
+ "taskTracker": {
+  "title": "ตัวติดตามงาน",
+  "description": "แสดงสถานะปัจจุบันของ Devin ในแท็บงาน เหนือช่องป้อนเซสชัน และในแถบข้าง"
+ }
+},
+"repoSelect": {
+ "loading": "กำลังโหลด…",
+ "noRepositoriesFound": "ไม่พบ repository",
+ "public": "สาธารณะ",
+ "publicNotSelectable": "เลือก repository สาธารณะที่นี่ไม่ได้",
+ "searchRepositories": "ค้นหา repository…",
+ "selectRepository": "เลือก repository…"
+},
+"projectSelect": {
+ "loading": "กำลังโหลดโปรเจกต์…",
+ "noProjectsFound": "ไม่พบโปรเจกต์",
+ "placeholder": "เลือกโปรเจกต์…",
+ "searchPlaceholder": "ค้นหาโปรเจกต์…"
+},
+"chatSyncConfirm": {
+ "title": "ข้อความของคุณจะแจ้งเตือนคนใน {{provider}}",
+ "participants_one": "อีก {{countLabel}} คนจะถูกแจ้งเตือนใน {{channel}}",
+ "participants_other": "อีก {{countLabel}} คนจะถูกแจ้งเตือนใน {{channel}}",
+ "participantsUnknown": "คนอื่นจะถูกแจ้งเตือนใน {{channel}}",
+ "dontRemindToday": "ไม่ต้องเตือนวันนี้",
+ "cancel": "ยกเลิก",
+ "post": "โพสต์"
+},
+"landing": {
+ "closeMenu": "ปิดเมนู",
+ "devinLogo": "โลโก้ Devin",
+ "home": "หน้าแรก",
+ "logIn": "เข้าสู่ระบบ",
+ "openMenu": "เปิดเมนู",
+ "review": "รีวิว",
+ "signUp": "สมัครสมาชิก",
+ "tryDevinReview": "ลอง Devin Review",
+ "wiki": "Wiki"
+},
+"selectionBar": {
+ "analyse": "วิเคราะห์",
+ "analyseSessions": "วิเคราะห์ {{count}} เซสชัน",
+ "analyseSessions_other": "วิเคราะห์ {{count}} เซสชัน",
+ "archive": "เก็บถาวร",
+ "asksExcluded": "ข้าม {{count}} ask — วิเคราะห์ได้เฉพาะเซสชัน",
+ "asksExcluded_other": "ข้าม {{count}} ask — วิเคราะห์ได้เฉพาะเซสชัน",
+ "clearSelection": "ล้างการเลือก",
+ "createPlaybook": "สร้าง Playbook",
+ "createPlaybookFromSessions": "สร้าง playbook จาก {{count}} เซสชัน",
+ "createPlaybookFromSessions_other": "สร้าง playbook จาก {{count}} เซสชัน",
+ "selectFirstSessions": "เลือก {{max}} เซสชันแรก",
+ "selected": "เลือก {{count}} แล้ว",
+ "tooManySessions": "สูงสุด {{max}} เซสชัน (เลือก {{count}})",
+ "unarchive": "เลิกเก็บถาวร",
+ "stop": "หยุด",
+ "resume": "ทำต่อ",
+ "createSkill": "สร้าง Skill",
+ "createSkillFromSessions": "สร้าง skill จาก {{count}} เซสชัน",
+ "createSkillFromSessions_other": "สร้าง skill จาก {{count}} เซสชัน"
+},
+"unifiedRepositories": {
+ "title": "Repository",
+ "repositoriesPager": {
+  "page": "หน้า {{page}}"
+ },
+ "description": "Repository ที่คุณเข้าถึงได้ในโหมด Unified และสิ่งที่ทำได้ในแต่ละอัน",
+ "search": "ค้นหา repository",
+ "searchPlaceholder": "ค้นหา repository",
+ "nameColumn": "ชื่อ",
+ "connectionColumn": "การเชื่อมต่อ",
+ "accessColumn": "การเข้าถึง",
+ "read": "อ่าน",
+ "write": "เขียน",
+ "configure": "ตั้งค่า",
+ "accessList": "{{levels, list(style: short)}}",
+ "pendingSync": "รอการซิงก์",
+ "pendingSyncCheckFailed": "ตรวจสอบทุกโฮสต์สำหรับ repository ที่กำลังซิงก์ไม่ได้",
+ "emptyTitle": "ไม่มี repository",
+ "emptyDescription": "คุณยังไม่มีสิทธิ์เข้าถึง repository ใด",
+ "noSearchResults": "ไม่มีผลลัพธ์ที่ตรงกับการค้นหา",
+ "loadError": "โหลด repository ไม่สำเร็จ",
+ "retry": "ลองอีกครั้ง",
+ "repositoryActions": "การกระทำ repository",
+ "configureBlueprint": "ตั้งค่า blueprint",
+ "inDevinTab": "ใน Devin",
+ "connectionKind": {
+  "githubApp": "GitHub App",
+  "token": "Access token",
+  "projectToken": "GitLab project access token",
+  "oauth": "การเชื่อมต่อ OAuth",
+  "perforce": "Perforce"
+ },
+ "available": {
+  "description": "Repository ที่คุณมีส่วนร่วมล่าสุดกับบัญชีที่เชื่อมของคุณ ซึ่งยังไม่ได้เชื่อมกับ Devin ถ้าไม่มี repository ในรายการ ลองค้นหา",
+  "unlinkedHosts": "ไม่ได้ตรวจสอบ: {{unlinked, list(style: long)}} — <connectionsLink>เชื่อมบัญชีของคุณ</connectionsLink> เพื่อรวมมัน",
+  "hostColumn": "โฮสต์",
+  "adding": "กำลังเพิ่ม…",
+  "added": "เพิ่ม {{name}} ไปยัง Devin แล้ว",
+  "addToDevin": "เพิ่มไปยัง Devin",
+  "addFailed": "เพิ่มโปรเจกต์ไม่ได้",
+  "requestAccess": "ขอเข้าถึง",
+  "askAdmin": "ขอให้ผู้ดูแลเชื่อมต่อ",
+  "searchLabel": "ค้นหา repository",
+  "searchPlaceholder": "ค้นหาตามชื่อ owner/repo หรือ URL",
+  "searchHint": "พิมพ์อย่างน้อย 3 ตัวอักษรหรือวาง URL ของ repository",
+  "noResultsHint": "ไม่มีอะไรตรงบนโฮสต์ที่ตรวจสอบ วาง URL ของ repository เพื่อค้นหาโดยตรง",
+  "lookupFailed": "ตรวจสอบทุกโฮสต์ไม่ได้ ลองอีกครั้งในอีกครู่",
+  "searching": "กำลังค้นหา…",
+  "refresh": "รีเฟรช",
+  "loadError": "โหลด repository ไม่ได้",
+  "notLinkedTitle": "ไม่มีบัญชีที่เชื่อม",
+  "notLinkedDescription": "<connectionsLink>เชื่อมบัญชี GitLab หรือ GitHub ของคุณ</connectionsLink> เพื่อดู repository ที่เพิ่มได้",
+  "notFound": "ไม่พบ {{path}} บน {{host}}",
+  "notFoundDescription": "มันอาจไม่มีอยู่ คุณอาจไม่มีสิทธิ์เข้าถึง หรือ Devin GitHub App ไม่ได้ติดตั้งบนมัน",
+  "emptyTitle": "ไม่มีอะไรให้เพิ่ม",
+  "emptyDescription": "Repository ล่าสุดของคุณอยู่ใน Devin หมดแล้ว ค้นหาตามชื่อหรือวาง URL เพื่อหาอื่น"
+ },
+ "notInDevinTab": "ไม่อยู่ใน Devin"
+},
+"customizeIntro": {
+ "title": "ปรับแต่ง Devin ของคุณ",
+ "subtitle": "จัดการปลั๊กอิน, skill, MCP และ hook ที่ Devin ใช้ได้",
+ "subtitle_shared": "จัดการปลั๊กอิน, skill, MCP และ hook ที่ Devin ใช้ได้ สำหรับคุณและองค์กร",
+ "actions": {
+  "continue": "ดำเนินการต่อ"
+ },
+ "illustration": {
+  "cli": "CLI",
+  "cloud": "Cloud",
+  "desktop": "Desktop",
+  "installed": "ติดตั้งแล้ว",
+  "terminal": "เทอร์มินัล"
+ },
+ "rows": {
+  "marketplace": {
+   "title": "ติดตั้งจาก marketplace",
+   "body": "เรียกดูปลั๊กอินที่มีอยู่และติดตั้งเข้าการตั้งค่าของคุณ"
+  },
+  "sync": {
+   "title": "แชร์ข้ามทุกพื้นผิว",
+   "body": "ปลั๊กอินของคุณโหลดในเซสชัน cloud, Devin CLI และ Devin Desktop"
+  },
+  "ask": {
+   "title": "Devin เพิ่มปลั๊กอินให้คุณได้",
+   "body": "ให้ Devin ทำ skill, ติดตั้ง MCP server หรือตั้งค่าปลั๊กอินบุคคลที่สาม"
+  }
+ }
+}
+}
